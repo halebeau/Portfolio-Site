@@ -105,10 +105,10 @@
         "url": "https://barbersite.netlify.app"
       },
       {
-        "title": "Barber Site",
+        "title": "Thinkful BnB",
         "category": "",
-        "image": "barber-website.png",
-        "url": "https://barbersite.netlify.app"
+        "image": "thinkfulbnb.png",
+        "url": "thinkfulbnb.netlify.app"
       },
       {
         "title": "Barber Site",
@@ -125,7 +125,7 @@
       {
         "title": "Restaurant Site",
         "category": "",
-        "image": "restaurant-website.png",
+        "image": "restaurant-site.png",
         "url": "https://fries-restaurant.netlify.app"
       },
       {

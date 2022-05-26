@@ -342,7 +342,7 @@ ul#nav li.current a {
 }
 .bars li em {
   font: 15px "opensans-bold", sans-serif;
-  color: #313131;
+  color: #4EA699;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
@@ -362,7 +362,7 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 3px 0 0 3px;
 }
-/*
+
 .git {
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
@@ -448,9 +448,9 @@ ul#nav li.current a {
 @-webkit-keyframes mongodb {
   0%   { width: 0px;  }
   100% { width: 80%;  }
-}  */
+} 
 
-/* ------------------------------------------------------------------ */
+------------------------------------------------------------------
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
