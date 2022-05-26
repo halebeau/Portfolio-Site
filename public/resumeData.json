@@ -1,0 +1,151 @@
+{
+  "main": {
+    "name": "Beau Hale",
+    "occupation": "Web Developer",
+    "description": "I eat, sleep and breathe HTML, CSS, Javascript and React",
+    "image": "profilepic.png",
+    "bio": "Experienced Front End web developer with Full Stack developer experience and education. I am a bootcamp graduate with an extensive background in various coding languages, developing mobile apps, and building websites from the ground up. Detail-oriented and design mindset. 20+ years of experience in the salon industry which gives me expert level design and aesthetics to my work. I also have an interest in UI/UX, which ensures that my websites and apps are both beautiful and user-friendly.",
+    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "email": "halebeau3@gmail.com",
+    "phone": "+1 (818) 726-2139",
+    "address": {
+      "city": "San Diego,",
+      "state": "CA"
+    },
+    "website": "",
+    "resumedownload": "https://docs.google.com/document/d/1YO0qjrOb60hSU25em-yWdw1qNirWlW8fb16Z1oeerOI/edit?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/hale.beau",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/halebeau",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/haletobeau",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/halebeau",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Thinkful",
+        "degree": "Certificate in Software Engineering",
+        "graduated": "Dec 2021",
+        "description": "6 month full-time Full Stack Immersion program.  Mastering HTML, CSS, Javascript, React & React Router, Git & Github, TDD Testing, Asynchronous programming, fetch APIs, Frontend deployment, Node & Express, Postgres, Backend deployment."
+      },
+      {
+        "school": "Nucamp",
+        "degree": "Certificate in Front End and Mobile development",
+        "graduated": "Apr 2020",
+        "description": "6 month remote Frontend + Mobile development program. Foundational beginnings in HTML, CSS, Bootstrap, React & React Native, MongoDb, Node, Express. "
+      }
+    ],
+    "work": [
+      {
+        "company": "LEARN Academy",
+        "title": "Lead Instructor",
+        "years": "Dec 2021 - May 2022",
+        "description": "Led a cohort of 20+ students through a 6 month full stack web development program.  Created and gave lectures, lessons and study in HTML, CSS, Javascript, React, and Ruby on Rails."
+      },
+      {
+        "company": "MyRoadmap",
+        "title": "Front End Developer",
+        "years": "Jan - Apr 2021",
+        "description": "Aligned with the dev team on the company website and migration to Mobile Apps."
+      },
+      {
+        "company": "Sunnybyte",
+        "title": "Front End Developer",
+        "years": "Mar 2020 - Mar 2021",
+        "description": "Collaborated with senior devs to develop projects for websites throughout phases of the project's life cycle."
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "70%"
+      },
+      {
+        "name": "Web Development",
+        "level": "75%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Barber Site",
+        "category": "",
+        "image": "barber-website.png",
+        "url": "https://barbersite.netlify.app"
+      },
+      {
+        "title": "Barber Site",
+        "category": "",
+        "image": "barber-website.png",
+        "url": "https://barbersite.netlify.app"
+      },
+      {
+        "title": "Barber Site",
+        "category": "",
+        "image": "barber-website.png",
+        "url": "https://barbersite.netlify.app"
+      },
+      {
+        "title": "Barber Site",
+        "category": "",
+        "image": "barber-website.png",
+        "url": "https://barbersite.netlify.app"
+      },
+      {
+        "title": "Restaurant Site",
+        "category": "",
+        "image": "restaurant-website.png",
+        "url": "https://fries-restaurant.netlify.app"
+      },
+      {
+        "title": "Photography Site",
+        "category": "",
+        "image": "photo-site.png",
+        "url": "https://example-photography-site.netlify.app"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Beau is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Learning with Beau has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
