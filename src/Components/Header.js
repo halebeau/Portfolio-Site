@@ -10,11 +10,11 @@ const Header = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank" rel="noreferrer">
             <i className={network.className}></i>
           </a>
         </li>
-      );
+      )
     });
   }
 
