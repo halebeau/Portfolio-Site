@@ -102,7 +102,7 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #11abb0;
+  color: #3a0ca3;
 }
 
 /* scrolldown link */
@@ -197,7 +197,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: #f77f00;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1042,7 +1042,7 @@ footer a:visited {
 }
 footer a:hover,
 footer a:focus {
-  color: #fff;
+  color: #11abb0;
 }
 
 /* copyright */
