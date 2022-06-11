@@ -5,15 +5,15 @@
     "description": "I eat, sleep and breathe HTML, CSS, Javascript and React",
     "image": "profilepic.png",
     "bio": "Experienced Front End web developer with Full Stack developer experience and education. I am a bootcamp graduate with an extensive background in various coding languages, developing mobile apps, and building websites from the ground up. Detail-oriented and design mindset. 20+ years of experience in the salon industry which gives me expert level design and aesthetics to my work. I also have an interest in UI/UX, which ensures that my websites and apps are both beautiful and user-friendly.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "contactmessage": "Get in touch with me!  I would love to talk.",
     "email": "halebeau3@gmail.com",
-    "phone": "+1 (818) 726-2139",
+    "phone": "(818) 726-2139",
     "address": {
       "city": "San Diego,",
       "state": "CA"
     },
     "website": "",
-    "resumedownload": "https://docs.google.com/document/d/1YO0qjrOb60hSU25em-yWdw1qNirWlW8fb16Z1oeerOI/edit?usp=sharing",
+    "resumedownload": "Beau-Hale-Resume.pdf",
     "social": [
       {
         "name": "facebook",
@@ -56,39 +56,45 @@
     "work": [
       {
         "company": "LEARN Academy",
+        "site": "learnacademy.org",
+        "website": "https://www.learnacademy.org",
         "title": "Lead Instructor",
         "years": "Dec 2021 - May 2022",
-        "description": "Led a cohort of 20+ students through a 6 month full stack web development program.  Created and gave lectures, lessons and study in HTML, CSS, Javascript, React, and Ruby on Rails."
+        "description": "Led a cohort of 20+ students through a 6 month full stack web development program.  Created and gave lectures, lessons and study in HTML, CSS, Javascript, React, and Ruby on Rails.  Aligned with Educational team to plan out cohort curriculum.  Used AGILE methodologies and best practices for consistent workflows."
       },
       {
         "company": "MyRoadmap",
+        "site": "myroadmap.io",
+        "website": "https://www.myroadmap.io",
         "title": "Front End Developer",
         "years": "Jan - Apr 2021",
-        "description": "Aligned with the dev team on the company website and migration to Mobile Apps."
+        "description": "Aligned with the dev team on the company website and migration to Mobile Apps. Created custom CSS design and utilized Asana for workflow.  Implemented React and Python logic in mobile designs.  Assisted Senior Developer on building a cross-platform app for company success."
       },
       {
         "company": "Sunnybyte",
-        "title": "Front End Developer",
+        "site": "sunnybyte.com",
+        "website": "https://www.sunnybyte.com",
+        "title": "Web Developer",
         "years": "Mar 2020 - Mar 2021",
-        "description": "Collaborated with senior devs to develop projects for websites throughout phases of the project's life cycle."
+        "description": "Collaborated with senior devs to develop projects for websites throughout phases of the project's life cycle.  Developed cross-browser and cross-device compatibility in graded browser super environment.  Maintained existing code and functionality during migration into ongoing operations of web businesses."
       }
     ],
     "skills": [
       {
         "name": "React",
-        "level": "70%"
+        "level": "60%"
       },
       {
         "name": "CSS",
         "level": "85%"
       },
       {
-        "name": "Git",
-        "level": "90%"
-      },
-      {
         "name": "JavaScript",
         "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
       },
       {
         "name": "Web Development",

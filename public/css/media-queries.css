@@ -50,8 +50,8 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
+      width: 148px;
+      height: 196px;
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
@@ -309,6 +309,9 @@
       width: 100%;
    }
    #contact button.submit { margin: 30px 0 24px 0; }
+  .submit-form {
+    margin: 0 auto;
+  }
    #message-warning, #message-success {
       width: 100%;
       margin-left: 0;

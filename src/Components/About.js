@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
@@ -16,11 +17,7 @@ const About = ({ data }) => {
     <section id="about">
       <div className="row">
         <div className="three columns">
-          <img
-            className="profile-pic"
-            src={profilepic}
-            alt="Beau Hale's Pic"
-          />
+          <img className="profile-pic" src={profilepic} alt="Beau Hale's Pic" />
         </div>
         <div className="nine columns main-col">
           <h2>About Me</h2>
@@ -36,14 +33,24 @@ const About = ({ data }) => {
                   {city} {state}
                 </span>
                 <br />
-                <span>{phone}</span>
+                <span>
+                  <a href="tel:818-726-2139">{phone}</a>
+                </span>
                 <br />
-                <span>{email}</span>
+                <span>
+                  <a href="mailto: halebeau3@gmail.com">{email}</a>
+                </span>
               </p>
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button" target="_blank" rel="noreferrer">
+                <a
+                  href={resumeDownload}
+                  download="Beau Hale Resume"
+                  className="button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>
@@ -52,7 +59,7 @@ const About = ({ data }) => {
         </div>
       </div>
     </section>
-  );
+  )
 };
 
 export default About;

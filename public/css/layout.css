@@ -66,7 +66,7 @@ header .banner-text h1 {
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 3px 3px rgba(171, 88, 5, 0.8);
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
@@ -197,7 +197,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f77f00;
+  color: #d46c04;
 }
 
 /* ------------------------------------------------------------------ */
@@ -231,9 +231,19 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
+  width: 165px;
+  height: 228px;
+  border-radius: 20%;
+  box-shadow: 0px 22px 70px 4px rgba(0, 0, 0, 0.56);
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#about .profile-pic:hover {
+  box-shadow: 0px 12px 70px 1px rgb(0 204 204 / 0.7);
+  transform: scale(1.2, 1.2);
+} 
+#about .profile-pic:hover::after {
+  opacity: 1;
 }
 #about .contact-details {
   width: 41.66667%;
@@ -247,11 +257,17 @@ ul#nav li.current a {
 }
 #about .download .button {
   margin-top: 6px;
-  background: #444;
+  background: #0d0d0d;
+  border-radius: 5px;
+    box-shadow: 0 8px 20px 1px rgba(255, 255, 255, 0.56);
+      -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 #about .download .button:hover {
   background: #fff;
   color: #2b2b2b;
+  box-shadow: 0px 12px 70px 1px rgb(0 204 204 / 0.7);
+  transform: scale(1.2, 1.2);
 }
 #about .download .button i {
   margin-right: 15px;
@@ -269,13 +285,19 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
-#resume a,
+#resume a {
+  color: #535454;
+  margin-left: 20px;
+  font: 15px/24px "opensans-regular", sans-serif;
+  cursor: pointer;
+  text-decoration: underline;
+}
 #resume a:visited {
-  color: #11abb0;
+  color: inherit;
 }
 #resume a:hover,
 #resume a:focus {
-  color: #313131;
+  color: blue;
 }
 
 #resume h1 {
@@ -305,8 +327,8 @@ ul#nav li.current a {
   border-bottom: 2px solid #e8e8e8;
 }
 #resume .info {
-  font: 16px/24px "librebaskerville-italic", serif;
-  color: #6e7881;
+  font: 20px/24px "librebaskerville-italic", serif;
+  color: #11abb0;
   margin-bottom: 18px;
   margin-top: 9px;
 }
@@ -958,6 +980,9 @@ call-to-action .button {
   color: #fff;
   background-color: #11abb0;
 }
+.submit-form {
+  margin: 0 47%;
+}
 #contact button.submit {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -967,12 +992,17 @@ call-to-action .button {
   cursor: pointer;
   height: auto;
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-left: 26%;
+  box-shadow: 0 8px 20px 1px rgb(255, 255, 255, 0.2);
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 #contact button.submit:hover {
   color: #0d0d0d;
   background: #fff;
+  box-shadow: 0px 12px 30px 1px rgb(0, 204, 204, 0.9);
+  transform: scale(1.2, 1.2);
 }
 #contact span.required {
   color: #11abb0;

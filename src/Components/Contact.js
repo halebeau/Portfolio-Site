@@ -102,7 +102,7 @@ const Contact = ({ data }) => {
                 ></textarea>
               </div>
 
-              <div>
+              <div className="submit-form">
                 <button onClick={submitForm} type="submit" className="submit">
                   Submit
                 </button>
@@ -124,18 +124,19 @@ const Contact = ({ data }) => {
               {contactName}
               <br />
               {contactEmail}
+              {street}
               <br />
+              {city} {state} {zip}
               <br />
-              {street} <br />
-              {city}, {state} {zip}
-              <br />
-              <span>{phone}</span>
+              <span>
+                <a href="tel:818-726-2139">{phone}</a>
+              </span>
             </p>
           </div>
         </aside>
       </div>
     </section>
-  );
+  )
 };
 
 export default Contact;
