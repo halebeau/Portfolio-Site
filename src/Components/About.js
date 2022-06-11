@@ -30,7 +30,7 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {city} {state}
+                  {city}, {state}
                 </span>
                 <br />
                 <span>
