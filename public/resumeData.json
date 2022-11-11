@@ -55,6 +55,14 @@
     ],
     "work": [
       {
+        "company": "Booz Allen Hamilton",
+        "site": "boozallen.com",
+        "website": "https://www.boozallen.com",
+        "title": "Senior Front End Developer",
+        "years": "Aug 2022 - Pres",
+        "description": "I worked closely with the product manager and UI/UX team to deliver clients’s vision and their users’ needs. Apart of a Agile team, working in Scrum sprints designing large-scale digital experiences using technologies such as Javascript, CSS, React, Angular, AWS and more.  Involved with the full spectrum of the digital creative process, from user requirements, front end to full stack development. Advocated for the prioritizations of design-centered changes, refinements, and improvements."
+      },
+      {
         "company": "LEARN Academy",
         "site": "learnacademy.org",
         "website": "https://www.learnacademy.org",
